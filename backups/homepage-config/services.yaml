@@ -5,19 +5,19 @@
     - Clawdbot Gateway:
         href: http://127.0.0.1:18789
         description: Main AI control UI
-        icon: /icons/clawdbot.png
+        icon: /icons/clawdbot.svg
         weight: 1
     
     - Ollama (Local AI):
         href: http://localhost:11434
         description: Qwen 2.5 72B - Local Model
-        icon: /icons/ollama.png
+        icon: /icons/ollama.svg
         weight: 2
     
     - Homepage Command Center:
         href: http://localhost:3002
         description: This dashboard
-        icon: /icons/homepage.png
+        icon: /icons/homepage.svg
         weight: 3
 
 - Skills Development:
@@ -36,26 +36,26 @@
     - skills.sh:
         href: https://skills.sh
         description: Agent Skills directory
-        icon: /icons/skill.png
+        icon: /icons/skill.svg
         weight: 3
     
     - ClawdHub:
         href: https://clawdhub.com
         description: Skill marketplace
-        icon: /icons/clawdhub.png
+        icon: /icons/clawdhub.svg
         weight: 4
 
 - Alternative Design:
     - Website (coming soon):
         href: https://alternativedesign.com
         description: Main portfolio site
-        icon: /icons/design.png
+        icon: /icons/design.svg
         weight: 1
     
     - Instagram:
         href: https://instagram.com/alternativedesignco
         description: Portfolio & showcases
-        icon: /icons/instagram.svg
+        icon: si-instagram
         weight: 2
     
     - Twitter:
@@ -74,49 +74,49 @@
     - Replicate:
         href: https://replicate.com
         description: AI models API
-        icon: /icons/replicate.png
+        icon: /icons/replicate.svg
         weight: 2
     
     - Remotion:
         href: https://remotion.dev
         description: Video rendering framework
-        icon: /icons/remotion.png
+        icon: /icons/remotion.svg
         weight: 3
 
 - Documentation:
     - Clawdbot Docs:
         href: https://docs.clawd.bot
         description: Official Clawdbot documentation
-        icon: /icons/docs.png
+        icon: /icons/docs.svg
         weight: 1
     
     - Agent Skills Spec:
         href: https://agentskills.io
         description: Skills specification
-        icon: /icons/spec.png
+        icon: /icons/spec.svg
         weight: 2
     
     - Remotion Docs:
         href: https://remotion.dev/docs
         description: Remotion documentation
-        icon: /icons/remotion.png
+        icon: /icons/remotion.svg
         weight: 3
 
 - Quick Access:
     - Workspace:
         href: file:///Users/coltonbatts/clawd
         description: ~/clawd workspace
-        icon: /icons/folder.png
+        icon: /icons/folder.svg
         weight: 1
     
     - Skills to Publish:
         href: file:///Users/coltonbatts/clawd/skills-to-publish
         description: Skills in development
-        icon: /icons/folder.png
+        icon: /icons/folder.svg
         weight: 2
     
     - Business Plan:
         href: file:///Users/coltonbatts/clawd/SKILLS_BUSINESS_PLAN.md
         description: Revenue roadmap
-        icon: /icons/plan.png
+        icon: /icons/plan.svg
         weight: 3
