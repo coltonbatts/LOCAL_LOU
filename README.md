@@ -208,6 +208,20 @@ clawdbot gateway restart
 
 ---
 
+## Security
+
+**⚠️ NEVER commit API keys or secrets to GitHub!**
+
+See **`SECURITY.md`** for full guidelines on:
+- What never to commit
+- How to rotate keys safely
+- Incident response protocol
+- Best practices
+
+The `.gitignore` file protects most sensitive files, but always double-check before pushing.
+
+---
+
 ## Support
 
 - **Clawdbot docs:** https://docs.clawd.bot

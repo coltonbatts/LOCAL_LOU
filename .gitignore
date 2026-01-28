@@ -1,0 +1,44 @@
+# Security - Never commit sensitive data
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*-key.txt
+*-token.txt
+*-secret.txt
+*.credentials
+
+# API keys and configs with sensitive data
+config.json
+secrets.json
+.env.local
+.env.production
+
+# Clawdbot config (contains API keys and auth tokens)
+clawdbot.json
+clawdbot-backup-*.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
