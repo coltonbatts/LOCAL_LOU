@@ -20,15 +20,57 @@ ollama pull qwen2.5:72b-instruct-q4_K_M
 ```
 
 ### 2. Restore Clawdbot Config
-```bash
-# Backup current config (if any)
-cp ~/.clawdbot/clawdbot.json ~/.clawdbot/clawdbot.json.old
 
-# Restore from backup
+**Note:** Config backups are NOT stored in git (they contain API keys).
+
+**Option A - Rebuild via wizard:**
+```bash
+# Run the setup wizard
+clawdbot wizard onboard
+
+# Follow prompts to configure:
+# - Ollama provider: http://localhost:11434/v1
+# - Model: qwen2.5:72b
+# - Set as default model
+# - Add Claude Sonnet 4.5 as fallback (if you have API key)
+```
+
+**Option B - Restore from local backup:**
+```bash
+# If you have a LOCAL backup (not in git)
 cp ~/clawd/backups/clawdbot-config/clawdbot-backup-YYYYMMDD.json ~/.clawdbot/clawdbot.json
 
 # Restart Clawdbot
 clawdbot gateway restart
+```
+
+**Option C - Manual config:**
+Edit `~/.clawdbot/clawdbot.json` and add the Ollama provider:
+```json
+{
+  "models": {
+    "providers": {
+      "ollama:local": {
+        "baseUrl": "http://localhost:11434/v1",
+        "api": "openai-completions",
+        "models": [{
+          "id": "qwen2.5:72b",
+          "name": "Qwen 2.5 72B Local",
+          "contextWindow": 32768,
+          "maxTokens": 8192,
+          "cost": {"input": 0, "output": 0}
+        }]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "ollama:local/qwen2.5:72b"
+      }
+    }
+  }
+}
 ```
 
 ### 3. Verify It's Working

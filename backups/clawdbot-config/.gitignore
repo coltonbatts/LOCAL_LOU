@@ -1,0 +1,3 @@
+# Never commit actual config files - they contain API keys and auth tokens
+*.json
+clawdbot-backup-*.json
