@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lou 🏄 - Local AI Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 24px;
+            padding: 48px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .emoji {
+            font-size: 80px;
+            margin-bottom: 16px;
+            display: block;
+            animation: wave 2s ease-in-out infinite;
+        }
+
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(-10deg); }
+            75% { transform: rotate(10deg); }
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        .status {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #d4edda;
+            color: #155724;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: #28a745;
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 32px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 20px 32px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 16px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .btn-secondary {
+            background: #f8f9fa;
+            color: #495057;
+            border: 2px solid #dee2e6;
+        }
+
+        .btn-secondary:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+        }
+
+        .info {
+            margin-top: 32px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+
+        .info h3 {
+            color: #495057;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .info ul {
+            list-style: none;
+            color: #6c757d;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .info li:before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .footer {
+            margin-top: 32px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="emoji">🏄</span>
+            <h1>Lou</h1>
+            <p class="tagline">Your Local AI Assistant</p>
+            <div class="status">
+                <span class="status-dot"></span>
+                Qwen 2.5 72B Running Locally
+            </div>
+        </div>
+
+        <div class="buttons">
+            <a href="http://localhost:18789" class="btn btn-primary">
+                💬 Open Chat
+            </a>
+            <a href="https://github.com/coltonbatts/LOCAL_LOU" class="btn btn-secondary" target="_blank">
+                📁 View Repo
+            </a>
+        </div>
+
+        <div class="info">
+            <h3>What's Running:</h3>
+            <ul>
+                <li>Unlimited local AI - zero API costs</li>
+                <li>47GB Qwen 2.5 72B model via Ollama</li>
+                <li>Claude Sonnet 4.5 fallback for complex tasks</li>
+                <li>Full workspace backup on GitHub</li>
+                <li>Ready to build without limits</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Powered by <a href="https://clawd.bot" target="_blank">Clawdbot</a></p>
+            <p style="margin-top: 8px; opacity: 0.7;">Port: 18789 | Model: ollama:local/qwen2.5:72b</p>
+        </div>
+    </div>
+
+    <script>
+        // Auto-check if Clawdbot is running
+        fetch('http://localhost:18789/api/status')
+            .then(response => {
+                if (!response.ok) throw new Error('Not running');
+            })
+            .catch(() => {
+                document.querySelector('.status').innerHTML = 
+                    '<span style="background: #dc3545; width: 8px; height: 8px; border-radius: 50%;"></span> Offline';
+                document.querySelector('.status').style.background = '#f8d7da';
+                document.querySelector('.status').style.color = '#721c24';
+            });
+    </script>
+</body>
+</html>
