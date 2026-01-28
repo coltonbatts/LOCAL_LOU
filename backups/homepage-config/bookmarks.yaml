@@ -1,0 +1,86 @@
+---
+# 🏄 LOU'S BOOKMARKS
+
+- AI & Skills:
+    - skills.sh:
+        - icon: si-#6366f1
+          href: https://skills.sh
+    - Agent Skills:
+        - icon: si-github
+          href: https://agentskills.io
+    - ClawdHub:
+        - icon: si-#764ba2
+          href: https://clawdhub.com
+    - Anthropic Skills:
+        - icon: si-github
+          href: https://github.com/anthropics/skills
+    - Clawdbot Docs:
+        - icon: si-readme
+          href: https://docs.clawd.bot
+
+- Your Repos:
+    - remotion-thumbnail:
+        - icon: si-github
+          href: https://github.com/coltonbatts/-alternative-design-remotion-thumbnail
+    - LOCAL_LOU:
+        - icon: si-github
+          href: https://github.com/coltonbatts/LOCAL_LOU
+    - GitHub Profile:
+        - icon: si-github
+          href: https://github.com/coltonbatts
+
+- Creative Tools:
+    - Remotion:
+        - icon: si-react
+          href: https://remotion.dev
+    - Replicate:
+        - icon: si-#4285f4
+          href: https://replicate.com
+    - Midjourney:
+        - icon: si-#000000
+          href: https://midjourney.com
+    - Figma:
+        - icon: si-figma
+          href: https://figma.com
+
+- Social:
+    - X / Twitter:
+        - icon: si-x
+          href: https://x.com
+    - Instagram:
+        - icon: si-instagram
+          href: https://instagram.com
+    - YouTube Studio:
+        - icon: si-youtube
+          href: https://studio.youtube.com
+    - Reddit:
+        - icon: si-reddit
+          href: https://reddit.com
+
+- Productivity:
+    - Gmail:
+        - icon: si-gmail
+          href: https://mail.google.com
+    - Google Calendar:
+        - icon: si-googlecalendar
+          href: https://calendar.google.com
+    - Google Drive:
+        - icon: si-googledrive
+          href: https://drive.google.com
+    - Notion:
+        - icon: si-notion
+          href: https://notion.so
+
+- Learning:
+    - React Docs:
+        - icon: si-react
+          href: https://react.dev
+    - TypeScript Docs:
+        - icon: si-typescript
+          href: https://typescriptlang.org/docs
+    - Next.js Docs:
+        - icon: si-nextdotjs
+          href: https://nextjs.org/docs
+    - Tailwind CSS:
+        - icon: si-tailwindcss
+          href: https://tailwindcss.com/docs

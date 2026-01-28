@@ -1,0 +1,26 @@
+- Essentials:
+    - Clawdbot Gateway:
+        href: http://host.docker.internal:18789/
+        description: Clawdbot control UI
+    - Uptime Kuma:
+        href: http://host.docker.internal:3001/
+        description: Monitoring dashboard
+    - Homepage:
+        href: http://host.docker.internal:3002/
+        description: Server home dashboard
+    - btop (ttyd):
+        href: http://host.docker.internal:7681/
+        description: Terminal system monitor
+- Tailscale:
+    - Dashboard (remote):
+        href: https://coltons-mac-studio.tailc76d2c.ts.net/
+        description: Clawdbot dashboard over Tailscale
+    - Uptime Kuma (remote):
+        href: https://coltons-mac-studio.tailc76d2c.ts.net/uptime
+        description: Uptime Kuma via Tailscale
+    - Homepage (remote):
+        href: https://coltons-mac-studio.tailc76d2c.ts.net/home
+        description: Homepage via Tailscale
+    - btop (remote):
+        href: https://coltons-mac-studio.tailc76d2c.ts.net/btop
+        description: btop via Tailscale

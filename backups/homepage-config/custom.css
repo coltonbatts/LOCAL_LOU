@@ -1,0 +1,210 @@
+/* 🏄 LOU'S COMMAND CENTER - FULL BLACK MODE */
+
+:root {
+  --bg: #000000;
+  --bg-card: #0a0a0a;
+  --bg-hover: #111111;
+  --border: #1a1a1a;
+  --border-hover: #333333;
+  --text: #ffffff;
+  --text-muted: #888888;
+  --accent: #6366f1;
+  --accent-glow: rgba(99, 102, 241, 0.3);
+}
+
+/* Full black background */
+html,
+body,
+#__next,
+#page_wrapper,
+#inner_wrapper {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+/* Remove all gradients and patterns */
+body::before {
+  display: none !important;
+}
+
+/* All panels and cards - pure black */
+.bg-theme-50,
+.bg-theme-100,
+.bg-theme-200,
+.bg-theme-300,
+.bg-theme-400,
+.bg-theme-500,
+.bg-theme-600,
+.bg-theme-700,
+.bg-theme-800,
+.bg-theme-900,
+.dark\:bg-theme-50,
+.dark\:bg-theme-100,
+.dark\:bg-theme-200,
+.dark\:bg-theme-300,
+.dark\:bg-theme-400,
+.dark\:bg-theme-500,
+.dark\:bg-theme-600,
+.dark\:bg-theme-700,
+.dark\:bg-theme-800,
+.dark\:bg-theme-900,
+.bg-white,
+.dark\:bg-white\/5,
+.dark\:bg-white\/10,
+.dark\:bg-white\/20 {
+  background: var(--bg-card) !important;
+}
+
+/* Service cards */
+.service-card,
+[class*="service"],
+[class*="card"] {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
+  transition: all 0.2s ease;
+}
+
+.service-card:hover,
+[class*="service"]:hover {
+  background: var(--bg-hover) !important;
+  border-color: var(--border-hover) !important;
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+/* Text colors */
+.text-theme-700,
+.text-theme-800,
+.text-theme-900,
+.dark\:text-theme-100,
+.dark\:text-theme-200,
+.dark\:text-theme-300 {
+  color: var(--text) !important;
+}
+
+/* Muted text */
+.text-theme-400,
+.text-theme-500,
+.text-theme-600,
+.dark\:text-theme-400,
+.dark\:text-theme-500 {
+  color: var(--text-muted) !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text) !important;
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: var(--text) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent) !important;
+}
+
+/* Borders */
+.border-theme-800,
+.dark\:border-theme-200\/50,
+.border-b-2 {
+  border-color: var(--border) !important;
+}
+
+/* Resource widgets */
+.information-widget-resource {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
+  padding: 12px !important;
+  border-radius: 8px !important;
+}
+
+/* Progress bars */
+.resource-usage {
+  background: var(--border) !important;
+}
+
+.resource-usage > div {
+  background: var(--accent) !important;
+}
+
+/* Bookmarks */
+.bookmark {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease;
+}
+
+.bookmark:hover {
+  background: var(--bg-hover) !important;
+  border-color: var(--border-hover) !important;
+  box-shadow: 0 0 15px var(--accent-glow);
+}
+
+/* Search */
+input[type="text"],
+input[placeholder*="Search"] {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+}
+
+input[type="text"]:focus {
+  border-color: var(--accent) !important;
+  outline: none !important;
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+/* Icons - make them visible */
+svg {
+  color: var(--text) !important;
+}
+
+svg:hover {
+  color: var(--accent) !important;
+}
+
+/* Remove any remaining theme colors */
+.bg-slate-50,
+.bg-slate-100,
+.bg-slate-200,
+.dark\:bg-slate-700,
+.dark\:bg-slate-800,
+.dark\:bg-slate-900 {
+  background: var(--bg-card) !important;
+}
+
+/* Group headers */
+#information-widgets {
+  border-color: var(--border) !important;
+}
+
+/* Scrollbar (macOS style) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-hover);
+}
+
+/* Clean typography */
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

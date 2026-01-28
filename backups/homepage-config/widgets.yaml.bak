@@ -1,0 +1,6 @@
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+- docker:
+    host: unix:///var/run/docker.sock

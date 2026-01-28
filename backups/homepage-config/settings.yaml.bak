@@ -1,0 +1,7 @@
+title: Mac Studio Server
+favicon: https://raw.githubusercontent.com/gethomepage/homepage/main/public/favicon.ico
+headerStyle: clean
+layout:
+  Essentials:
+    style: row
+    columns: 3

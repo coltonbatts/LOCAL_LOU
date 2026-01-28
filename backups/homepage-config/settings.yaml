@@ -1,0 +1,29 @@
+---
+title: Lou's Command Center 🏄
+favicon: https://raw.githubusercontent.com/gethomepage/homepage/main/public/favicon.ico
+theme: dark
+color: slate
+headerStyle: clean
+hideVersion: false
+statusStyle: dot
+target: _self
+
+layout:
+  Core Systems:
+    style: row
+    columns: 3
+  Skills Development:
+    style: row
+    columns: 4
+  Alternative Design:
+    style: row
+    columns: 3
+  Business Intel:
+    style: row
+    columns: 3
+  Documentation:
+    style: row
+    columns: 3
+  Quick Access:
+    style: row
+    columns: 3

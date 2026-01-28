@@ -1,0 +1,122 @@
+---
+# 🏄 LOU'S COMMAND CENTER
+
+- Core Systems:
+    - Clawdbot Gateway:
+        href: http://127.0.0.1:18789
+        description: Main AI control UI
+        icon: /icons/clawdbot.png
+        weight: 1
+    
+    - Ollama (Local AI):
+        href: http://localhost:11434
+        description: Qwen 2.5 72B - Local Model
+        icon: /icons/ollama.png
+        weight: 2
+    
+    - Homepage Command Center:
+        href: http://localhost:3002
+        description: This dashboard
+        icon: /icons/homepage.png
+        weight: 3
+
+- Skills Development:
+    - GitHub - remotion-thumbnail:
+        href: https://github.com/coltonbatts/-alternative-design-remotion-thumbnail
+        description: First published skill 🚀
+        icon: /icons/github.svg
+        weight: 1
+    
+    - GitHub - LOCAL_LOU:
+        href: https://github.com/coltonbatts/LOCAL_LOU
+        description: Workspace backup
+        icon: /icons/github.svg
+        weight: 2
+    
+    - skills.sh:
+        href: https://skills.sh
+        description: Agent Skills directory
+        icon: /icons/skill.png
+        weight: 3
+    
+    - ClawdHub:
+        href: https://clawdhub.com
+        description: Skill marketplace
+        icon: /icons/clawdhub.png
+        weight: 4
+
+- Alternative Design:
+    - Website (coming soon):
+        href: https://alternativedesign.com
+        description: Main portfolio site
+        icon: /icons/design.png
+        weight: 1
+    
+    - Instagram:
+        href: https://instagram.com/alternativedesignco
+        description: Portfolio & showcases
+        icon: /icons/instagram.svg
+        weight: 2
+    
+    - Twitter:
+        href: https://twitter.com/alternativedesign
+        description: Updates & announcements
+        icon: /icons/x.svg
+        weight: 3
+
+- Business Intel:
+    - Brave Search API:
+        href: https://brave.com/search/api/
+        description: Web search for skills
+        icon: /icons/brave.svg
+        weight: 1
+    
+    - Replicate:
+        href: https://replicate.com
+        description: AI models API
+        icon: /icons/replicate.png
+        weight: 2
+    
+    - Remotion:
+        href: https://remotion.dev
+        description: Video rendering framework
+        icon: /icons/remotion.png
+        weight: 3
+
+- Documentation:
+    - Clawdbot Docs:
+        href: https://docs.clawd.bot
+        description: Official Clawdbot documentation
+        icon: /icons/docs.png
+        weight: 1
+    
+    - Agent Skills Spec:
+        href: https://agentskills.io
+        description: Skills specification
+        icon: /icons/spec.png
+        weight: 2
+    
+    - Remotion Docs:
+        href: https://remotion.dev/docs
+        description: Remotion documentation
+        icon: /icons/remotion.png
+        weight: 3
+
+- Quick Access:
+    - Workspace:
+        href: file:///Users/coltonbatts/clawd
+        description: ~/clawd workspace
+        icon: /icons/folder.png
+        weight: 1
+    
+    - Skills to Publish:
+        href: file:///Users/coltonbatts/clawd/skills-to-publish
+        description: Skills in development
+        icon: /icons/folder.png
+        weight: 2
+    
+    - Business Plan:
+        href: file:///Users/coltonbatts/clawd/SKILLS_BUSINESS_PLAN.md
+        description: Revenue roadmap
+        icon: /icons/plan.png
+        weight: 3

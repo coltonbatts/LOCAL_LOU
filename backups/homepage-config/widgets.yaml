@@ -1,0 +1,15 @@
+---
+# System Resources & Status
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+    uptime: true
+
+- datetime:
+    text_size: xl
+    format:
+      timeStyle: short
+      dateStyle: long
+      hour12: false
