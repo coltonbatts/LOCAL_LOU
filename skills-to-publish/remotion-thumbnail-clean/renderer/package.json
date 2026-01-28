@@ -1,0 +1,25 @@
+{
+  "name": "renderer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "remotion preview",
+    "render": "remotion still Thumbnail out/thumbnail.png",
+    "typecheck": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@remotion/cli": "^4.0.410",
+    "@remotion/renderer": "^4.0.410",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.410",
+    "replicate": "^1.4.0",
+    "typescript": "^5.9.3"
+  }
+}

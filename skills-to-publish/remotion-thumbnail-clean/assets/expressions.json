@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "label": "Neutral"
+    },
+    {
+        "id": 2,
+        "label": "Happy/Smiling"
+    },
+    {
+        "id": 3,
+        "label": "Laughing"
+    },
+    {
+        "id": 4,
+        "label": "Big Smile"
+    },
+    {
+        "id": 5,
+        "label": "Surprised/Shocked (Open mouth)"
+    },
+    {
+        "id": 6,
+        "label": "Extremely Shocked (Hands on face)"
+    },
+    {
+        "id": 7,
+        "label": "Angry/Furious"
+    },
+    {
+        "id": 8,
+        "label": "Thinking/Confused"
+    },
+    {
+        "id": 9,
+        "label": "Sad/Crying"
+    },
+    {
+        "id": 10,
+        "label": "Wink"
+    },
+    {
+        "id": 11,
+        "label": "Pointing Up"
+    },
+    {
+        "id": 12,
+        "label": "Pointing Left"
+    },
+    {
+        "id": 13,
+        "label": "Pointing Right"
+    },
+    {
+        "id": 14,
+        "label": "Pointing at Camera"
+    },
+    {
+        "id": 15,
+        "label": "Shushing"
+    },
+    {
+        "id": 16,
+        "label": "Thumbs Up"
+    },
+    {
+        "id": 17,
+        "label": "Eye Roll"
+    },
+    {
+        "id": 18,
+        "label": "Scared"
+    },
+    {
+        "id": 19,
+        "label": "Excited"
+    },
+    {
+        "id": 20,
+        "label": "Skeptical"
+    },
+    {
+        "id": 21,
+        "label": "Mind Blown"
+    },
+    {
+        "id": 22,
+        "label": "Tired/Yawning"
+    },
+    {
+        "id": 23,
+        "label": "Heroic/Confident"
+    },
+    {
+        "id": 24,
+        "label": "Silly/Tongue Out"
+    },
+    {
+        "id": 25,
+        "label": "Disgusted"
+    }
+]

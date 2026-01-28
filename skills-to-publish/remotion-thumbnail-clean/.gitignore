@@ -1,0 +1,38 @@
+# Storage (user-generated expressions)
+storage/
+
+# Node modules
+node_modules/
+renderer/node_modules/
+
+# Build outputs
+renderer/out/
+renderer/dist/
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
